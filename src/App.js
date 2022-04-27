@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import './App.scss';
+
 import Post from './components/Post.tsx';
 import User from './components/User.tsx';
 
