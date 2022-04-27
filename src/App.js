@@ -48,7 +48,6 @@ function App() {
   };
 
   const returnPost = (id) => {
-    console.log('sperm');
     let _items = [...items];
     let _post = _items.find((el) => el.id === id);
     setPost(_post);
