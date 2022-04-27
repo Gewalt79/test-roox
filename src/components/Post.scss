@@ -1,0 +1,38 @@
+p {
+    font-size: 15px;
+    opacity: .6;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.card {
+    width: 500px;
+    height: 75px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    padding: 10px;
+    flex-flow: column;
+    justify-content: space-between;
+    background: #F3F3F3;
+}
+
+.card-row {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    margin: 0;
+}
+
+.details {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    opacity: 1;
+    font-weight: 500;
+    color: #4B51EF;
+    margin-bottom: 5px;
+}

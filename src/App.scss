@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.App-sort {
+  position: fixed;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 50px;
+  height: 100vh;
+  width: 300px;
+  left: 0;
+  color: #000;
+  background-color: #BDBDBD;
+  button {
+    height: 30px;
+    width: 230px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #4B51EF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 1;
+    margin-bottom: 5px;
+  }
+}
+
+.App-posts {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 15vw;
+}
+
+.App-posts-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-inline-end: auto;
+  opacity: 1;
+}
+
+.App-found {
+  font-size: 16px;
+  opacity: 1;
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin-inline-start: auto;
+}
